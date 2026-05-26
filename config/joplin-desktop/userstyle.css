@@ -1,0 +1,319 @@
+:root {
+  --lokalius-base: #3DC2D4;
+  --lokalius-code-background: #002F38;
+  --lokalius-selection-background: #153F48;
+  --lokalius-white: #DEF0F0;
+  --lokalius-black: #0B1C1A;
+  --lokalius-gray: #929595;
+  --lokalius-red: #C07474;
+  --lokalius-orange: #C2845A;
+  --lokalius-yellow: #B8A764;
+  --lokalius-green: #AAC694;
+  --lokalius-blue: #7196A8;
+  --lokalius-purple: #755C83;
+  --lokalius-cyan: #4F8684;
+  --lokalius-magenta: #C66F92;
+  --lokalius-bright-red: #DC8E8E;
+  --lokalius-bright-orange: #CCA283;
+  --lokalius-bright-yellow: #D8D781;
+  --lokalius-bright-green: #73A084;
+  --lokalius-bright-blue: #71B6DE;
+  --lokalius-bright-purple: #AA9DBC;
+  --lokalius-bright-cyan: #6A8DA5;
+  --lokalius-bright-magenta: #D372A8;
+
+  --font-text: "UbuntuSans NF", "Shanggu Sans HW SC";
+  --font-code: "UbuntuSansMono NF", "YEFONTDanDanHeiDZK", "Shanggu Sans HW SC";
+  --font-text-size: 11pt;
+  --font-h1-size: 20pt;
+  --font-h2-size: 15pt;
+  --font-h3-size: 14pt;
+  --font-h46-size: 13pt;
+  --icon-size: 11pt;
+
+  --font-regular-weight: 400;
+  --font-bold-weight: 700;
+
+  --scroll-radius: 3px;
+
+  --h1-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(194, 132, 90, 0.4)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M2.857 32v0c-1.6 0-2.857-1.257-2.857-2.857v-8.571c0-1.6 1.257-2.857 2.857-2.857v0c1.6 0 2.857 1.143 2.857 2.857v8.571c0 1.6-1.257 2.857-2.857 2.857z'/></svg>") no-repeat  center;
+  --h2-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(79, 134, 132, 0.5)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M11.429 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286z'/></svg>") no-repeat  center;
+  --h3-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(113, 150, 168, 0.5)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M4.571 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286z'/></svg>") no-repeat  center;
+  --h4-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(184, 167, 100, 0.5)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M4.571 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 22.857c1.257 0 2.286-1.029 2.286-2.286s-1.029-2.286-2.286-2.286-2.286 1.029-2.286 2.286 1.029 2.286 2.286 2.286z'/></svg>") no-repeat  center;
+  --h5-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(170, 198, 148, 0.5)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M4.571 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 22.857c1.257 0 2.286-1.029 2.286-2.286s-1.029-2.286-2.286-2.286-2.286 1.029-2.286 2.286 1.029 2.286 2.286 2.286zM4.571 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 11.429c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286z'/></svg>") no-repeat  center;
+  --h6-r-graphic: url("data:image/svg+xml;utf8,<svg fill='rgba(192, 116, 116, 0.5)' height='24' viewBox='0 0 32 32' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M4.571 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM4.571 11.429c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 18.286c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 25.143c-1.257 0-2.286 1.029-2.286 2.286s1.029 2.286 2.286 2.286 2.286-1.029 2.286-2.286-1.029-2.286-2.286-2.286zM11.429 16c1.257 0 2.286-1.029 2.286-2.286s-1.029-2.286-2.286-2.286-2.286 1.029-2.286 2.286 1.029 2.286 2.286 2.286z'/></svg>") no-repeat  center;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--lokalius-base) !important;
+  border-radius: var(--scroll-radius) !important;
+}
+
+#rendered-md,
+body {
+  background-color: var(--lokalius-white) !important;
+  font-family: var(--font-text) !important;
+  font-size: var(--font-text-size) !important;
+}
+
+p,
+ul,
+ol,
+li {
+  color: var(--lokalius-black) !important;
+}
+
+strong {
+  color: var(--lokalius-yellow) !important;
+}
+
+em,
+i {
+  color: var(--lokalius-bright-magenta) !important;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--lokalius-base) !important;
+  margin: 0.2em 0 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--lokalius-cyan) !important;
+  border-bottom: 0 !important;
+  font-size: var(--font-h46-size) !important;
+  font-weight: var(--font-bold-weight) !important;
+}
+
+h1 { font-size: var(--font-h1-size) !important; }
+h2 { font-size: var(--font-h2-size) !important; }
+h3 { font-size: var(--font-h3-size) !important; }
+
+h1::after,
+h2::after,
+h3::after,
+h4::after,
+h5::after,
+h6::after {
+  content: "";
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.1em;
+  background-size: contain;
+}
+
+h1::after {
+  background: var(--h1-r-graphic);
+}
+h2::after {
+  background: var(--h2-r-graphic);
+}
+h3::after {
+  background: var(--h3-r-graphic);
+  padding-left: 0.1em;
+  padding-bottom: 0.1em;
+}
+h4::after {
+  background: var(--h4-r-graphic);
+  padding-left: 0.2em;
+  padding-bottom: 0.2em;
+}
+h5::after {
+  background: var(--h5-r-graphic);
+  padding-left: 0.2em;
+  padding-bottom: 0.2em;
+}
+h6::after {
+  background: var(--h6-r-graphic);
+  padding-left: 0.2em;
+  padding-bottom: 0.2em;
+}
+
+a {
+  color: var(--lokalius-blue) !important;
+  text-decoration: underline !important;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+.resource-icon {
+  background-color: var(--lokalius-blue) !important;
+}
+
+pre,
+.hljs {
+  background-color: var(--lokalius-code-background) !important;
+  padding: 0.4em !important;
+  padding-bottom: 0 !important;
+  color: var(--lokalius-white) !important;
+  border-bottom-left-radius: 13px !important;
+  border-top-right-radius: 13px !important;
+  overflow: scroll !important;
+}
+
+code {
+  font-family: var(--font-code) !important;
+  font-size: var(--font-text-size) !important;
+}
+
+.inline-code {
+  background-color: transparent !important;
+  border: 1px solid var(--lokalius-orange) !important;
+  font-family: var(--font-code) !important;
+  color: var(--lokalius-orange) !important;
+  font-size: var(--font-text-size) !important;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  padding-left: 0.4em !important;
+  padding-right: 0.4em !important;
+  border-bottom-right-radius: 0em !important;
+  border-top-left-radius: 0em !important;
+  border-bottom-left-radius: 0.4em !important;
+  border-top-right-radius: 0.4em !important;
+}
+
+.katex, .katex * {
+  color: var(--lokalius-black) !important;
+}
+
+blockquote {
+  padding: 0.2em !important;
+  padding-left: 0.5em !important;
+  color: var(--lokalius-black) !important;
+  font-size: var(--font-text-size) !important;
+  border: 0 !important;
+  border-left: 4px solid var(--lokalius-bright-green) !important;
+  border-bottom-left-radius: 13px !important;
+  opacity: 1 !important;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0.4em !important;
+}
+
+table {
+  background-color: transparent !important;
+  border: 0px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+tbody {
+  border: 0px !important;
+  border-bottom: 1px solid var(--lokalius-code-background) !important;
+}
+
+tr {
+  background-color: transparent !important;
+}
+
+th {
+  background-color: transparent !important;
+  border: 0px !important;
+  color: var(--lokalius-black) !important;
+  border-top: 1px solid var(--lokalius-code-background) !important;
+  border-bottom: 1px solid var(--lokalius-code-background) !important;
+}
+
+td {
+  background-color: transparent !important;
+  border: 0px !important;
+  color: var(--lokalius-black) !important;
+}
+
+::selection {
+  background-color: var(--lokalius-selection-background) !important;
+  color: var(--lokalius-white) !important;
+}
+
+mark,
+mark strong {
+  background: var(--lokalius-magenta) !important;
+  color: var(--lokalius-white) !important;
+}
+
+mark[data-markjs] {
+  background-color: var(--lokalius-magenta) !important;
+}
+
+.hljs,
+.hljs-subst,
+.hljs-section {
+  color: var(--lokalius-white);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-doctag,
+.hljs-code {
+  color: var(--lokalius-gray);
+}
+
+.hljs-keyword,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-template-variable {
+  color: var(--lokalius-bright-red);
+}
+
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: var(--lokalius-red);
+}
+.hljs-attr {
+  color: var(--lokalius-bright-red);
+}
+.hljs-title,
+.hljs-class,
+.hljs-function,
+.hljs-tag .hljs-title {
+  color: var(--lokalius-orange);
+}
+
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: var(--lokalius-magenta);
+}
+
+.hljs-number,
+.hljs-attribute {
+  color: var(--lokalius-bright-magenta);
+}
+
+.hljs-operator {
+  color: var(--lokalius-cyan);
+}
+
+.hljs-regexp {
+  color: var(--lokalius-bright-cyan);
+}
+
+@media print {
+  .exported-note-title { 
+    display: none; 
+  }
+
+  @page {
+    /*margin: 1.0in 0.75in !important;*/
+    margin: 0.1in 0.1in !important;
+  }
+
+  #rendered-md,
+  body {
+    background-color: #ffffff !important;
+  }
+}

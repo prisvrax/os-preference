@@ -1,0 +1,198 @@
+:root {
+  --lokalius-base: #3DC2D4;
+  --lokalius-background: #002F38;
+  --lokalius-code-background: #ECF3F2;
+  --lokalius-highlight-background: #006E8E;
+  --lokalius-selection-background: #153F48;
+  --lokalius-white: #DEF0F0;
+  --lokalius-black: #0B1C1A;
+  --lokalius-gray: #929595;
+  --lokalius-red: #C07474;
+  --lokalius-orange: #C2845A;
+  --lokalius-yellow: #B8A764;
+  --lokalius-green: #AAC694;
+  --lokalius-blue: #7196A8;
+  --lokalius-purple: #755C83;
+  --lokalius-cyan: #4F8684;
+  --lokalius-magenta: #C66F92;
+  --lokalius-bright-red: #DC8E8E;
+  --lokalius-bright-orange: #CCA283;
+  --lokalius-bright-yellow: #D8D781;
+  --lokalius-bright-green: #73A084;
+  --lokalius-bright-blue: #71B6DE;
+  --lokalius-bright-purple: #AA9DBC;
+  --lokalius-bright-cyan: #6A8DA5;
+  --lokalius-bright-magenta: #D372A8;
+
+  --font-text: "UbuntuSans NF", "Shanggu Sans HW SC";
+  --font-code: "UbuntuSansMono NF", "YEFONTDanDanHeiDZK", "Shanggu Sans HW SC";
+  --font-text-size: 11pt;
+  --icon-size: 11pt;
+
+  --font-regular-weight: 400;
+}
+
+*, #joplin-container-body {
+  font-family: var(--font-text), 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+body {
+  font-family: var(--font-text), 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  margin-bottom: 2em !important;
+}
+
+.editor-status-bar {
+  display: none !important;
+}
+
+.cm-content {
+  font-family: var(--font-text) !important;
+  font-size: var(--font-text-size);
+  background-color: var(--lokalius-background);
+}
+
+.cm-scroller {
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--lokalius-background);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--lokalius-base);
+  }
+}
+
+.cm-cursor, .cm-dropCursor {
+  border-left-color: var(--lokalius-base) !important;
+  border-left-width: 2px !important;
+}
+
+.ͼ4 .cm-line ::selection,
+.ͼ4 .cm-line::selection,
+.cm-editor .cm-selectionBackground {
+  background-color: var(--lokalius-selection-background) !important;
+  color: var(--lokalius-white) !important;
+}
+
+.cm-activeLine {
+  background-color: var(--lokalius-highlight-background);
+}
+
+.cm-h1 {
+  border-bottom: 0 !important;
+}
+.cm-header {
+  color: var(--lokalius-cyan) !important;
+}
+
+.tok-emphasis {
+  color: var(--lokalius-bright-magenta) !important;
+}
+
+.tok-strong {
+  color: var(--lokalius-yellow) !important;
+}
+
+.cm-codeBlock {
+  color: var(--lokalius-black);
+  font-family: var(--font-code) !important;
+  font-weight: var(--font-regular-weight);
+  font-size: var(--font-text-size);
+  background: var(--lokalius-code-background) !important;
+}
+
+.cm-codeBlock.cm-regionFirstLine {
+  border-top-right-radius: 13px !important;
+}
+
+.cm-codeBlock.cm-regionLastLine {
+  border-bottom-left-radius: 13px !important;
+}
+
+.cm-inlineCode {
+  background-color: transparent !important;
+  border: 1px solid var(--lokalius-orange) !important;
+  font-family: var(--font-code) !important;
+  color: var(--lokalius-white) !important;
+  font-size: var(--font-text-size) !important;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  padding-left: 0.4em !important;
+  padding-right: 0.4em !important;
+  border-bottom-right-radius: 0em !important;
+  border-top-left-radius: 0em !important;
+  border-bottom-left-radius: 0.4em !important;
+  border-top-right-radius: 0.4em !important;
+}
+
+.cm-inlineMath {
+  border: 1px solid var(--lokalius-bright-blue) !important;
+  font-family: var(--font-code) !important;
+  color: var(--lokalius-white) !important;
+  padding-top: 0.2em !important;
+  padding-bottom: 0.2em !important;
+  padding-left: 0.4em !important;
+  padding-right: 0.4em !important;
+  border-bottom-right-radius: 0em !important;
+  border-top-left-radius: 0em !important;
+  border-bottom-left-radius: 0.4em !important;
+  border-top-right-radius: 0.4em !important;
+}
+
+.cm-mathBlock {
+  color: var(--lokalius-black) !important;
+  font-family: var(--font-code) !important;
+  font-weight: var(--font-regular-weight) !important;
+  font-size: var(--font-text-size) !important;
+  background: var(--lokalius-code-background) !important;
+}
+
+.tok-typeName {
+  color: var(--lokalius-orange);
+}
+
+.tok-atom {
+  color: var(--lokalius-bright-red);
+}
+
+.tok-punctuation {
+  color: var(--lokalius-base);
+}
+
+.cm-tableDelimiter {
+  padding-left: 10px !important;
+  border-left: 4px solid var(--lokalius-purple) !important;
+}
+
+.tok-link {
+  color: var(--lokalius-blue) !important;
+  text-decoration: underline !important;
+}
+
+.cm-blockQuote {
+  color: var(--lokalius-white) !important;
+  font-size: var(--font-text-size) !important;
+  border: 0 !important;
+  border-left: 4px solid var(--lokalius-bright-green) !important;
+  padding-left: 10px !important;
+  opacity: 1;
+}
+
+.cm-blockQuote.cm-mathBlock {
+  color: var(--lokalius-black) !important;
+  font-family: var(--font-code) !important;
+  font-weight: var(--font-regular-weight) !important;
+  font-size: var(--font-text-size) !important;
+  background: var(--lokalius-code-background) !important;
+  border: 0 !important;
+  border-left: 4px solid var(--lokalius-bright-green) !important;
+  padding-left: 10px !important;
+  opacity: 1;
+}
+
+.cm-highlighted {
+  background: var(--lokalius-magenta) !important;
+  color: var(--lokalius-white) !important;
+}

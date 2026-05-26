@@ -1,0 +1,53 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"altInstanceId": "",
+	"editor.codeView": true,
+	"richTextBannerDismissed": true,
+	"locale": "zh_CN",
+	"dateFormat": "YYYY-MM-DD",
+	"theme": 2,
+	"layoutButtonSequence": 0,
+	"notes.sortOrder.field": "title",
+	"notes.sortOrder.reverse": false,
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"markdown.plugin.audioPlayer": false,
+	"markdown.plugin.videoPlayer": false,
+	"markdown.plugin.externalEmbed": false,
+	"renderer.fileUrls": true,
+	"style.editor.fontSize": 16,
+	"style.editor.fontFamily": "Shanggu Sans HW SC",
+	"style.editor.monospaceFontFamily": "UbuntuSansMono NF",
+	"style.viewer.fontFamily": "",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 210,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 230,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"editor.inlineRendering": false,
+	"editor.highlightActiveLine": false,
+	"api.token": "52d45404c0e4c0edccfaba9388507cf23525c50116c9d270afe2e1dab2c5b5396c412d2f807f1c3016a6d06af874de86e4ac6d3c121f90a56684c9069410649d",
+	"spellChecker.enabled": false,
+	"spellChecker.languages": [
+		"en-US"
+	]
+}

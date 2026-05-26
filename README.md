@@ -18,13 +18,14 @@
 ## Get start
 
 ```shell
-ln -s ~/Lokalius/OsPreferences/profile ~/.profile
-ln -s ~/Lokalius/OsPreferences/murex_profile ~/.murex_profile
-ln -s ~/Lokalius/OsPreferences/config/g ~/.config/g
-ln -s ~/Lokalius/OsPreferences/config/murex ~/.config/murex
-ln -s ~/Lokalius/OsPreferences/config/pypoetry ~/.config/pypoetry
-ln -s ~/Lokalius/OsPreferences/config/trae/settings.json ~/.config/Trae/User/settings.json
-ln -s ~/Lokalius/OsPreferences/config/trae/keybindings.json ~/.config/Trae/User/keybindings.json
+ln -s ~/<OsPreferences>/profile ~/.profile
+ln -s ~/<OsPreferences>/murex_profile ~/.murex_profile
+ln -s ~/<OsPreferences>/config/g ~/.config/g
+ln -s ~/<OsPreferences>/config/murex ~/.config/murex
+ln -s ~/<OsPreferences>/config/pypoetry ~/.config/pypoetry
+ln -s ~/<OsPreferences>/config/joplin-desktop/* ~/.config/joplin-desktop/
+ln -s ~/<OsPreferences>/config/trae/settings.json ~/.config/Trae/User/settings.json
+ln -s ~/<OsPreferences>/config/trae/keybindings.json ~/.config/Trae/User/keybindings.json
 ```
 
 ## About
