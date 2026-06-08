@@ -6,6 +6,7 @@
     "editor.fontFamily": "'UbuntuSansMono NF', 'YEFONTDanDanHeiDZK', 'Shanggu Sans HW SC'",
     "editor.fontWeight": "500",
     "editor.tabSize": 2,
+    "editor.insertSpaces": true,
     "editor.rulers": [
         { "column": 100, "color": "#044b5b" }
     ],

@@ -308,8 +308,8 @@ mark[data-markjs] {
   }
 
   @page {
-    /*margin: 1.0in 0.75in !important;*/
-    margin: 0.1in 0.1in !important;
+    margin: 1.0in 0.75in !important;
+    /*margin: 0.1in 0.1in !important;*/
   }
 
   #rendered-md,

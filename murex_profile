@@ -26,6 +26,7 @@ config set shell prompt {
 export VIRTUAL_ENV_DISABLE_PROMPT = 1
 export GOPATH="$HOME/.gopkg"
 export COLORTERM=truecolor
+export PATH="$PATH:$GOPATH/bin"
 
 ## 使用`g`实现的`ls`
 alias lgls = exec g
