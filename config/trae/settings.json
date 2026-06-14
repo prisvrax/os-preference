@@ -55,5 +55,6 @@
     "nim.buildCommand": "cpp",
     "nim.nimprettyMaxLineLen": 100,
     "nim.nimprettyIndent": 2,
-    "nim.inlayHints.exceptionHints.enable": false
+    "nim.inlayHints.exceptionHints.enable": false,
+    "gitai.enabled": false
 }
