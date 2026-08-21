@@ -1,0 +1,46 @@
+patch:
+  "menu/page_size": 7
+  schema_list:
+    - schema: rime_mint
+  ascii_composer: # 不生效，需要在`default.yaml`中修改
+    switch_key:
+      Caps_Lock: commit_code
+      Control_L: noop
+      Control_R: noop
+      Shift_L: commit_code
+      Shift_R: commit_code
+# 候选字的字体格式释
+  "style/font_face": "shanggu Sans SC"   #"Microsoft YaHei"
+# 候选字的字体大小
+  "style/font_point": 14
+# 候选字 横排 true / 纵排 false
+  "style/horizontal": true
+# 候选窗 不显示内选区(即拼音区)
+  "style/inline_preedit": true
+# 候选框边框粗细
+  "style/layout/border": 0
+# 候选字间隔
+  "style/layout/candidate_spacing": 18
+# 候选字背景色色块高度
+  "style/layout/hilite_padding": 8
+# 序号和候选字之间的间隔
+  "style/layout/hilite_spacing": 3
+# 候选框左右边距
+  "style/layout/margin_x": 10
+# 候选框上下边距
+  "style/layout/margin_y": 10
+# 候选字背景色块圆角半径
+  "style/layout/round_corner": 21
+
+  "style/layout/corner_radius": 23
+
+  #"style/label_format": "%s."
+  "style/layout/border_width": 0
+
+  "style/layout/min_width": 60
+
+  "style/layout/shadow_radius": 20 #全局阴影模糊半径，如果为0则全局禁用阴影
+
+  "style/layout/shadow_offset_x": 2 # 阴影x偏置，正向右，负向左
+
+  "style/layout/shadow_offset_y": 2
