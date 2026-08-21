@@ -26,4 +26,4 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-export PATH="$HOME/.cargo/bin:$HOME/.python/bin:$HOME/.go/bin:$HOME/.nodejs/bin:$HOME/.nim/bin:$HOME/.nimble/bin:$PATH"
+export PATH="$HOME/.rust/bin:$HOME/.python/bin:$HOME/.go/bin:$HOME/.nodejs/bin:$HOME/.nim/bin:$HOME/.nimble/bin:$PATH"
