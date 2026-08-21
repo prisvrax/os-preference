@@ -18,7 +18,7 @@
 	"style.editor.fontSize": 16,
 	"style.editor.fontFamily": "Shanggu Sans HW SC",
 	"style.editor.monospaceFontFamily": "UbuntuSansMono NF",
-	"style.viewer.fontFamily": "",
+	"style.viewer.fontFamily": "UbuntuSans Nerd Font",
 	"ui.layout": {
 		"key": "root",
 		"children": [

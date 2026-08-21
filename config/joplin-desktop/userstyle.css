@@ -22,8 +22,8 @@
   --lokalius-bright-cyan: #6A8DA5;
   --lokalius-bright-magenta: #D372A8;
 
-  --font-text: "UbuntuSans NF", "Shanggu Sans HW SC";
-  --font-code: "UbuntuSansMono NF", "YEFONTDanDanHeiDZK", "Shanggu Sans HW SC";
+  --font-text: "UbuntuSans Nerd Font", "Shanggu Sans SC";
+  --font-code: "UbuntuSansMono Nerd Font", "YEFONTDanDanHeiDZK", "Shanggu Sans SC";
   --font-text-size: 11pt;
   --font-h1-size: 20pt;
   --font-h2-size: 15pt;
