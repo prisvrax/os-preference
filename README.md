@@ -7,7 +7,7 @@
 |Font|尙古字体|[https://github.com/GuiWonder/Shanggu/](https://github.com/GuiWonder/Shanggu)||
 |Gtk|`Andromeda`|[https://www.pling.com/p/2039961](https://www.pling.com/p/2039961)||
 |Icons|`Azure Glassy Dark Icons`|[https://www.pling.com/p/2154036](https://www.pling.com/p/2154036)||
-|Icons|`Elysia`|[https://www.pling.com/p/2167806](https://www.pling.com/p/2167806)|*cursor*|
+|Icons|`Susie`|[https://store.kde.org/p/2366059](https://store.kde.org/p/2366059)|*cursor*|
 |Python|`Poetry`|[https://python-poetry.org](https://python-poetry.org)||
 |Terminal|`Murex`|[https://murex.rocks](https://murex.rocks)||
 |Terminal|`Rio`|[https://github.com/raphamorim/rio](https://github.com/raphamorim/rio)||
