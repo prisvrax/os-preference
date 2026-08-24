@@ -22,12 +22,6 @@ config set shell prompt {
   }
 }
 
-## 拒绝`python`虚拟环境管理器设置的`prompt`
-export VIRTUAL_ENV_DISABLE_PROMPT = 1
-export GOPATH="$HOME/.gopkg"
-export COLORTERM=truecolor
-export PATH="$PATH:$GOPATH/bin"
-
 ## 使用`g`实现的`ls`
 alias lgls = exec g
 
