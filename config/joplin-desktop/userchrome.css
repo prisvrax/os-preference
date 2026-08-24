@@ -33,7 +33,7 @@
 }
 
 *, #joplin-container-body {
-  font-family: var(--font-text), 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: var(--font-text), 'Segoe UI', 'Apple Color Emoji', 'Segoe UI Emoji' !important;
 }
 
 body {
