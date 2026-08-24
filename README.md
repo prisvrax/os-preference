@@ -15,6 +15,35 @@
 |Terminal|`G`|[https://github.com/equationzhao/g](https://github.com/equationzhao/g)||
 |Terminal|`Lf`|[https://github.com/gokcehan/lf](https://github.com/gokcehan/lf)||
 
+## KDE extensions
+
+- `Panel Colorizer`
+  - [https://store.kde.org/p/2130967/](https://store.kde.org/p/2130967)
+  - [https://github.com/luisbocanegra/plasma-panel-colorizer](https://github.com/luisbocanegra/plasma-panel-colorizer)
+- `Applet Appgrid`
+  - [https://appgrid.xarbit.dev/](https://appgrid.xarbit.dev/)
+  - [https://github.com/xarbit/plasma6-applet-appgrid](https://github.com/xarbit/plasma6-applet-appgrid)
+  - 无法通过`store.kde`安装
+- `Punchi Dock`
+  - [https://store.kde.org/p/2364290](https://store.kde.org/p/2364290)
+  - [https://github.com/PunchiSoft/punchi-dock-remastered](https://github.com/PunchiSoft/punchi-dock-remastered)
+- `FlexHub`
+  - [https://store.kde.org/p/2238525](https://store.kde.org/p/2238525)
+  - [https://github.com/zayronxio/Plasma.Flex.Hub/](https://github.com/zayronxio/Plasma.Flex.Hub/)
+- `Mike Monitor`
+  - [https://store.kde.org/p/2364347](https://store.kde.org/p/2364347)
+  - [https://github.com/MikeDevQH/plasma6-widget-monitor](https://github.com/MikeDevQH/plasma6-widget-monitor)
+- `Mike Timestats`
+  - [https://store.kde.org/p/2363692](https://store.kde.org/p/2363692)
+  - [https://github.com/MikeDevQH/plasma6-widget-timestats](https://github.com/MikeDevQH/plasma6-widget-timestats)
+- `Custom Calendar and Clock Widget`
+  - [https://store.kde.org/p/2367412](https://store.kde.org/p/2367412)
+  - [https://github.com/Dreb1n/custom-calendar-widget](https://github.com/Dreb1n/custom-calendar-widget)
+- `Smart Video Wallpaper`
+  - [https://store.kde.org/p/2139746](https://store.kde.org/p/2139746)
+  - [https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn](https://github.com/luisbocanegra/plasma-smart-video-wallpaper-reborn)
+  - 动态视频壁纸 [https://wallpaperwaifu.com/](https://wallpaperwaifu.com/)
+
 ## Get start
 
 ```shell
