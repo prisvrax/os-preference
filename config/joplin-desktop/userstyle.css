@@ -199,6 +199,7 @@ blockquote > :last-child {
 }
 
 table {
+  font-family: var(--font-text);
   background-color: transparent !important;
   border: 0px !important;
   margin-left: auto !important;
@@ -208,10 +209,12 @@ table {
 tbody {
   border: 0px !important;
   border-bottom: 1px solid var(--lokalius-code-background) !important;
+  font-family: var(--font-text);
 }
 
 tr {
   background-color: transparent !important;
+  font-family: var(--font-text);
 }
 
 th {
@@ -220,12 +223,21 @@ th {
   color: var(--lokalius-black) !important;
   border-top: 1px solid var(--lokalius-code-background) !important;
   border-bottom: 1px solid var(--lokalius-code-background) !important;
+  font-family: var(--font-text);
+}
+
+table td {
+  background-color: transparent !important;
+  border: 0px !important;
+  color: var(--lokalius-black) !important;
+  font-family: var(--font-text);
 }
 
 td {
   background-color: transparent !important;
   border: 0px !important;
   color: var(--lokalius-black) !important;
+  font-family: var(--font-text);
 }
 
 ::selection {
@@ -312,8 +324,12 @@ mark[data-markjs] {
     /*margin: 0.1in 0.1in !important;*/
   }
 
-  #rendered-md,
-  body {
+  #rendered-md, body {
+    font-family: "Times New Roman", "SimSun" !important;
     background-color: #ffffff !important;
+  }
+
+  table, th, tr, td, table th, table td {
+    font-family: "Times New Roman", "SimSun" !important;
   }
 }

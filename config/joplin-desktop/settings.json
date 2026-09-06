@@ -6,6 +6,7 @@
 	"locale": "zh_CN",
 	"dateFormat": "YYYY-MM-DD",
 	"theme": 2,
+	"preferredLightTheme": 1,
 	"layoutButtonSequence": 0,
 	"notes.sortOrder.field": "title",
 	"notes.sortOrder.reverse": false,
@@ -18,7 +19,7 @@
 	"style.editor.fontSize": 16,
 	"style.editor.fontFamily": "Shanggu Sans HW SC",
 	"style.editor.monospaceFontFamily": "UbuntuSansMono NF",
-	"style.viewer.fontFamily": "UbuntuSans Nerd Font",
+	"style.viewer.fontFamily": "",
 	"ui.layout": {
 		"key": "root",
 		"children": [
