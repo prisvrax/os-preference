@@ -490,6 +490,10 @@
     {
       "scope": ["meta.preprocessor.pragma.nim"],
       "settings": { "foreground": "#AA9DBC" }
+    },
+    {
+      "scope": ["entity.name.function.nim"],
+      "settings": { "foreground": "#DC8E8E" }
     }
   ]
 }
