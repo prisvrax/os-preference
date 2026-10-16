@@ -63,6 +63,9 @@ args = ["-quiet"]
 
 [bindings]
 keys = [
+  { key = "esc", action = "None" },
+  { key = "esc", mode = "~vi", action = "NoneT" },
+  { key = "space", with = "alt | control", action = "None" },
   { key = "q", with = "alt", action = "Quit" },
 
   { key = "left", with = "control | shift", action = "SelectPrevTab" },

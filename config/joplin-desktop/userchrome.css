@@ -24,8 +24,8 @@
   --lokalius-bright-cyan: #6A8DA5;
   --lokalius-bright-magenta: #D372A8;
 
-  --font-text: "UbuntuSans Nerd Font", "Shanggu Sans SC";
-  --font-code: "UbuntuSansMono Nerd Font", "YEFONTDanDanHeiDZK", "Shanggu Sans SC";
+  --font-text: "Petrona", "Binchotan_Sharp", "YEFONTDanDanHeiDZK", "Shanggu Sans SC";
+  --font-code: "Binchotan_Sharp", "YEFONTDanDanHeiDZK", "Shanggu Sans SC";
   --font-text-size: 11pt;
   --icon-size: 11pt;
 
@@ -41,11 +41,33 @@ body {
   margin-bottom: 2em !important;
 }
 
+.rli-editor {
+  background: #ffffff !important;
+}
+
+.editor {
+  margin: 12px !important;
+  border: none !important;
+  border-radius: 12px !important;
+  background: linear-gradient(
+    135deg,
+    #104B55 0%,
+    #063B45 38%,
+    var(--lokalius-background) 78%
+  ) !important;
+  box-shadow:
+  -5px -5px 0 rgba(61, 194, 212, 0.48),
+  -7px -7px 8px rgba(61, 194, 212, 0.16),
+  inset 1px 1px 0 rgba(222, 240, 240, 0.12) !important;
+  overflow: hidden !important;
+}
+
 .editor-status-bar {
   display: none !important;
 }
 
 .cm-content {
+  padding: 10px !important;
   font-family: var(--font-text) !important;
   font-size: var(--font-text-size);
   background-color: var(--lokalius-background);
@@ -125,6 +147,10 @@ body {
   border-top-left-radius: 0em !important;
   border-bottom-left-radius: 0.4em !important;
   border-top-right-radius: 0.4em !important;
+}
+
+.cm-inlineCode * {
+  font-family: var(--font-code) !important;
 }
 
 .cm-inlineMath {
