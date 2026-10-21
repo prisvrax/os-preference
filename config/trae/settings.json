@@ -67,5 +67,6 @@
       "alt": true
     }
   },
-  "trae.floatingChat.enabled": false
+  "trae.floatingChat.enabled": false,
+  "window.autoDetectColorScheme": false
 }

@@ -140,7 +140,7 @@
     "editor.lineHighlightBorder": "#002F38",
     "editor.lineHighlightBackground": "#006E8E2D",
     "editor.selectionBackground": "#153F48",
-    "editor.selectionHighlightBackground": "#153F480D",
+    "editor.selectionHighlightBackground": "#153F48",
     "editor.wordHighlightBackground": "#8dc8fb20",
     "editor.rangeHighlightBackground": "#8dc8fb20",
     "editor.findRangeHighlightBackground": "#153F4820",
