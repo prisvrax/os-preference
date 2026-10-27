@@ -1,35 +1,40 @@
 :root {
-  --base: #3DC2D4; /* 运算符 */
-  --background: #002F38;
-  --foreground: #61BFBF;
-  --highlight-background: #006E8E;
-  --selection-background: #153F48;
+  --base: #83B6BC; /* 符号 */
+  --background: #344852;
+  --foreground: #C8D5DA;
 
-  --light-background: #ECF3F2;
-  --light-foreground: #2C8F8F;
+  --background-highlight: #3C5360;
+  --background-selection: #4A6570;
+  --background-match: #415C68;
+  --background-search: #E9EFD7;
+  --background-secondary: #3A505B; /* 组件背景 */
 
-  --black: #0B1C1A;
-  --light-black: #0E181F;
-  --white: #DEF0F0;
-  --gray: #929595; /* 注释 */
-  --red: #C07474; /* 函数声明 */
-  --bright-red: #DC8E8E; /* 函数调用 */
-  --orange: #C2845A; /* 类 */
-  --bright-orange: #CCA283; /* 接口 */
-  --yellow: #B8A764; /* 参数 */
-  --bright-yellow: #D8D781; /* 模块, namespace */
-  --green: #AAC694; /* 关键字 */
-  --bright-green: #73A084; /* self, cls等特殊变量 */
-  --blue: #7196A8; /* 类型 */
-  --bright-blue: #71B6DE; /* 静态变量，枚举变量 */
-  --cyan: #4F8684;
-  --bright-cyan: #6A8DA5;
-  --purple: #755C83;
-  --bright-purple: #AA9DBC; /* 装饰, 宏 */
-  --magenta: #C66F92; /* 字符串 */
-  --bright-magenta: #D372A8; /* 数字 */
-  --brown: #8B7E6E; /* 搜索 */
+  --foreground-secondary: #A9BCC7;
+  --foreground-tertiary: #93A3A3; /* 行号 */
+  --foreground-disabled: #718690;
 
-  --warning: #C27D4A;
-  --error: #A25C6E;
+  --divider: #445D6A;
+  --border: #405761;
+  --border-focus: #668E99;
+
+  --black: #2F414A; /* 框架背景 */
+  --white: #D5E0E3;
+  --gray: #879FAA;
+  --red: #D58D91; /* 关键字 */
+  --bright-red: #E4B2B4; /* 数字 */
+  --yellow: #D6A078; /* 常量、静态变量、枚举 */
+  --bright-yellow: #E6BE9F; /* 声明函数 */
+  --green: #8BBEAA; /* 参数 */
+  --bright-green: #C6C58F; /* 类 */
+  --blue: #6387A8; /* 元数据（装饰器、label）, namespace定义 */
+  --bright-blue: #8CAAC8; /* 接口 */
+  --cyan: #5BBDC9; /* 调用函数 */
+  --bright-cyan: #7A9595; /* 注释 */
+  --purple: #A994D4; /* 宏 */
+  --bright-purple: #B5A6C8; /* 类型 */
+  --magenta: #C99BB4; /* 字符串 */
+  --bright-magenta: #BD729C; /* 静态方法 */
+
+  --error: #B97878;
+  --warning: #C99470;
 }

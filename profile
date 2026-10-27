@@ -29,7 +29,7 @@ fi
 export PATH="$HOME/.rust/bin:$HOME/.python/bin:$HOME/.go/bin:$HOME/.nodejs/bin:$HOME/.nim/bin:$HOME/.nimble/bin:$PATH"
 
 ## 拒绝`python`虚拟环境管理器设置的`prompt`
-export VIRTUAL_ENV_DISABLE_PROMPT = 1
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 
 export GOPATH="$HOME/.gopkg"
 export PATH="$PATH:$GOPATH/bin"

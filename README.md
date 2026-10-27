@@ -3,6 +3,7 @@
 |方面|名称|链接|描述|
 | -------------------------| -----------------------------| -----------------| -----------------|
 |Font|`Ubuntu Sans`|[https://design.ubuntu.com/font](https://design.ubuntu.com/font)||
+|Font|Petrona|[https://github.com/RingoSeeber/Petrona/](https://github.com/RingoSeeber/Petrona)||
 |Font|也字工厂淡淡黑|[https://www.yefont.com/](https://www.yefont.com/fontDetails/316)||
 |Font|尙古字体|[https://github.com/GuiWonder/Shanggu/](https://github.com/GuiWonder/Shanggu)||
 |Gtk|`Andromeda`|[https://www.pling.com/p/2039961](https://www.pling.com/p/2039961)||
@@ -53,8 +54,8 @@ ln -s ~/<OsPreferences>/config/g ~/.config/g
 ln -s ~/<OsPreferences>/config/murex ~/.config/murex
 ln -s ~/<OsPreferences>/config/pypoetry ~/.config/pypoetry
 ln -s ~/<OsPreferences>/config/joplin-desktop/* ~/.config/joplin-desktop/
-ln -s ~/<OsPreferences>/config/trae/settings.json ~/.config/Trae/User/settings.json
 ln -s ~/<OsPreferences>/config/trae/keybindings.json ~/.config/Trae/User/keybindings.json
+ln -s ~/<OsPreferences>/config/trae/settings.json ~/.config/Trae/User/settings.json
 ```
 
 ## About

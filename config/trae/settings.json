@@ -15,7 +15,7 @@
   "chat.editor.fontFamily": "'UbuntuSansMono Nerd Font', 'YEFONTDanDanHeiDZK', 'Shanggu Sans SC'",
   "chat.fontFamily": "'UbuntuSansMono Nerd Font', 'YEFONTDanDanHeiDZK', 'Shanggu Sans SC'",
   "markdown.preview.fontFamily": "'UbuntuSansMono Nerd Font', 'YEFONTDanDanHeiDZK', 'Shanggu Sans SC'",
-  "workbench.colorTheme": "Kiro Dark",
+  "workbench.colorTheme": "Lofoten Dark",
   "workbench.iconTheme": "simple-icons",
   "git.openRepositoryInParentFolders": "never",
   "trae.guide.neverShowNoticeForLanguages": [

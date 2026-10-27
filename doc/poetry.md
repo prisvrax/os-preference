@@ -50,29 +50,34 @@
 - `poetry add [OPTIONS] <PACKAGES>`: 添加依赖`<PACKAGES>`并下载
   - `<PACKAGES>`
     - `<PACKAGE>[EXTRAS][(==|>=|<=)<VERSION>]`: 特定版本
-    - `<LOCAL_PACKAGE_PATH>`: 本地安装，*模式*必须符合`^(\.)+/.+`
+    - `<LOCAL_PACKAGE_PATH>`: 本地安装，*模式*必须符合`^(\.*)+/.+`
     - `git+https://github.com/<USER>/<REPOSITORY>.git`: `GITHUB`发布页安装
   - `[OPTIONS]`
     - `-D`(`--dev`): 添加依赖到`DEV`环境
     - `-G <GROUP>`(`--group <GROUP>`): 添加依赖到组
     - `--optional`:
-    - `--lock`: 只更新`.lock`文件，**不安装**
+    - `--lock`: 只更新`.lock`文件，**不执行安装操作**
 - `poetry update [OPTIONS] [<PACKAGES>]`: 更新依赖`[<PACKAGES>]`
-  - `--with <GROUPS>`: 更新组中的依赖，多个组的写法有
+  - `--with <GROUPS>`: 更新组中的依赖，多个组用逗号分隔
   - `--without <GROUPS>`: 更新组之外的依赖
-  - `--only`: **激活后忽略** **`--with`****和** **`--without`**
-  - `--lock`: 只更新`.lock`文件，**不更新**
+  - `--only`: 只更新指定组的依赖，忽略`--with`和`--without`
+  - `--lock`: 只更新`.lock`文件，**不安装新的包到环境中**
   - `--dry-run`(`--outdated`): 只列出依赖的变化，而不修改`.lock`
 - `poetry remove [OPTIONS] <PACKAGES>`: 删除依赖`<PACKAGES>`
   - `-D`(`--dev`): 从`DEV`环境中删除依赖
   - `-G <GROUP>`(`--group <GROUP>`): 从组中删除依赖
   - `--dry-run`: 只列出依赖的变化，而不修改`.lock`
-  - `--lock`: 只更新`.lock`文件，**不删除**
-- `poetry install [OPTIONS]`: 从`.lock`文件中下载依赖，如果没有`.lock`则隐式执行`poetry lock`
+  - `--lock`: 只更新`.lock`文件，**不执行实际的卸载操作**
+- `poetry install [OPTIONS]`: 从`.lock`文件中下载依赖，如果没有`.lock`则隐式执行`poetry lock`，同时**默认安装项目自身**。
+  默认行为可以通过修改`pyproject.toml`中的配置改变：
+  ```
+  [tool.poetry]
+  package-mode = false
+  ```
+  - `--no-root`: 不安装项目自身`root package`，只安装依赖
   - `--with <GROUPS>`: 安装组中的依赖
   - `--without <GROUPS>`: 安装组之外的依赖
   - `--all-groups`: 安装全部组中的依赖
-  - `--no-root`: 不安装组`default`中的依赖
   - `--dry-run`: 只列出依赖的变化，而不修改`.lock`
 - `poetry show [OPTIONS] [<PACKAGES>]`: 列出当前工作空间中的依赖，可指定包`[<PACKAGES>]`
   - `-o`(`--outdated`): 展示过时依赖
@@ -80,13 +85,12 @@
   - `--with <GROUPS>`: 展示组中的依赖
   - `--without <GROUPS>`: 展示组之外的依赖
   - `--top-level`: 只输出顶层依赖
-- `poetry lock [OPTIONS]`: 生成锁文件
-  - `--regenerate`: 忽略已有的`.lock`，重新生成
-- `poetry sync [OPTIONS]`: 同步当前环境依赖和锁文件，自动移除`.lock`中不存在的依赖
+- `poetry lock`: 根据`pyproject.toml`的声明，解析并生成或更新`poetry.lock文件
+- `poetry sync [OPTIONS]`: 以`poetry.lock`为唯一权威，让本地虚拟环境与锁文件完全一致，**不会**管理`pyproject.toml`
   - `--with <GROUPS>`: 下载组中的依赖
   - `--without <GROUPS>`: 忽略组中的依赖
   - `--all-groups`: 下载所有组中的依赖
-  - `--no-root`: 不下载组`default`中的依赖
+  - `--no-root`: 不安装项目自身
   - `--dry-run`: 只列出操作，而不修改`.lock`
 - `poetry export [OPTIONS]`: 导出项目元数据为其他格式
   > *插件:*  *`poetry-plugin-export`*
